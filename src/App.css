@@ -21,10 +21,6 @@ body {
   max-width: 960px;
 }
 
-/*
- * Custom translucent site header
- */
-
 .site-header {
   background-color: rgba(0, 0, 0, 0.85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -37,6 +33,33 @@ body {
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
+}
+
+#header {
+  background-color: #8ea7cc;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#headerButton {
+  justify-self: end;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+}
+
+#logoContainer {
+  justify-self: end;
+}
+
+.logo {
+  height: 4rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  z-index: 1;
 }
 
 .washingMachine {
@@ -59,15 +82,22 @@ body {
 
 .brandsLogos {
   background: url("./images/brands-logos.jpg") center no-repeat;
-  background-size: 90% 90%;
+  background-size: 75% 85%;
   height: 30rem;
-  outline: 10px solid gray;
+  outline: 10px solid #a663cc;
   outline-offset: -10px;
 }
 
-/*
- * Extra utilities
- */
+#icons {
+  background-color: #8ea7cc;
+  display: flex;
+  justify-content: center;
+}
+
+#icons > * {
+  width: 10rem;
+  margin: 3rem;
+}
 
 .flex-equal > * {
   -ms-flex: 1;
