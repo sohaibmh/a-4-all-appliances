@@ -21,19 +21,14 @@ function App() {
         </div>
       </div>
 
-      <div
-        className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center"
-        id="mainSection"
-        style={{ backgroundColor: "#F7F7F7" }}
-      >
-        <div className="col-md-5 p-lg-5 mx-auto my-5">
-          <h1 className="display-4 font-weight-normal">
-            Appliances Repair Service
-          </h1>
-          <p className="lead font-weight-normal">
+      <div className="" id="mainSection" style={{ backgroundColor: "#F7F7F7" }}>
+        <img className="oven" src={oven} />
+        <div className="repairInfo">
+          <h1 className="">Appliances Repair Service</h1>
+          <h4 className="">
             We repair all kitchen appliances including fridge freezers, washing
             machines, ovens, dishwashers, cookers, and more.
-          </p>
+          </h4>
           <form action="https://a4allappliances.simplybook.it/v2/#book">
             <button type="submit" className="btn btn-primary btn-lg">
               Book Now
@@ -41,7 +36,6 @@ function App() {
           </form>
         </div>
         <img className="washingMachine" src={washingMachine} />
-        <img className="oven" src={oven} />
       </div>
 
       <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
@@ -117,53 +111,6 @@ function App() {
         </div>
         <div className=" mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden brandsLogos"></div>
       </div>
-
-      <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div className="my-3 p-3">
-            <h2 className="display-5">Another headline</h2>
-            <p className="lead">And an even wittier subheading.</p>
-          </div>
-          <div
-            className="bg-white shadow-sm mx-auto"
-            styles="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-          ></div>
-        </div>
-        <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div className="my-3 py-3">
-            <h2 className="display-5">Another headline</h2>
-            <p className="lead">And an even wittier subheading.</p>
-          </div>
-          <div
-            className="bg-white shadow-sm mx-auto"
-            styles="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-          ></div>
-        </div>
-      </div>
-
-      <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div className="my-3 p-3">
-            <h2 className="display-5">Another headline</h2>
-            <p className="lead">And an even wittier subheading.</p>
-          </div>
-          <div
-            className="bg-white shadow-sm mx-auto"
-            styles="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-          ></div>
-        </div>
-        <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div className="my-3 py-3">
-            <h2 className="display-5">Another headline</h2>
-            <p className="lead">And an even wittier subheading.</p>
-          </div>
-          <div
-            className="bg-white shadow-sm mx-auto"
-            styles="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-          ></div>
-        </div>
-      </div>
-
       <footer className="container py-5">
         <div className="row text-muted" id={"footer"}>
           <div className="col-12 col-md">

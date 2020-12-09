@@ -62,25 +62,34 @@ body {
   z-index: 1;
 }
 
-#mainSection {
-}
-
 .washingMachine {
-  position: absolute;
-  right: 10%;
-  bottom: 0%;
   height: 540px;
-  background-color: #333;
-  border-radius: 21px;
+  padding: 3% 10% 3% 1%;
 }
 
 .oven {
-  position: absolute;
-  right: 70%;
-  bottom: 0%;
   height: 540px;
-  background-color: #333;
-  border-radius: 21px;
+  padding: 6% 1% 6% 10%;
+}
+
+#mainSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.repairInfo {
+  display: flex;
+  flex-direction: column;
+  flex: 1 350px;
+  align-items: center;
+  text-align: center;
+  padding: 4% 0%;
+  padding-top: 6%;
+}
+
+.repairInfo > * {
+  padding-top: 3%;
 }
 
 .brandsLogos {
