@@ -43,8 +43,8 @@ body {
 
 #headerButton {
   justify-self: end;
+  align-self: center;
   padding-right: 1rem;
-  padding-top: 0.5rem;
 }
 
 #logoContainer {
@@ -60,6 +60,9 @@ body {
 .logo:hover {
   transform: scale(1.2);
   z-index: 1;
+}
+
+#mainSection {
 }
 
 .washingMachine {
@@ -112,4 +115,20 @@ body {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+#footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+}
+
+.footerLogo {
+  height: 3rem;
+  transition: transform 0.2s;
+}
+
+.footerLogo:hover {
+  transform: scale(1.3);
+  z-index: 1;
 }
