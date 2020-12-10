@@ -83,14 +83,17 @@ body {
 
 #service-1 {
   background-color: #a663cc;
-  border-radius: 30px;
-  font-size: 24px;
 }
 
 #service-2 {
   background-color: #8ea7cc;
+}
+
+#service-1,
+#service-2 {
   border-radius: 30px;
-  font-size: 24px;
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
 #brandsLogos {

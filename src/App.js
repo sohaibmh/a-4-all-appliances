@@ -28,7 +28,7 @@ function App() {
               <div class="serviceBox">
                 <div class="service-content">
                   <br />
-                  <b>Appliances Repair Service</b>
+                  <b>APPLIANCES REPAIR SERVICE</b>
                   <br /> <br />
                   We repair all kitchen appliances including fridge freezers,
                   washing machines, ovens, dishwashers, cookers, and more.
@@ -66,10 +66,7 @@ function App() {
           id="service-2"
         >
           <div className="my-3 p-3">
-            <p className="display-5">
-              Get your appliances repaired by our qualified and experienced
-              technicians
-            </p>
+            <p className="display-5">Covering all London areas</p>
           </div>
           <div
             className="bg-dark shadow-sm mx-auto"
