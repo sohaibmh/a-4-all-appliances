@@ -28,23 +28,17 @@ function App() {
               <div class="serviceBox">
                 <div class="service-content">
                   <br />
-                  <h1>Appliances Repair Service</h1>
-                  <br />
-                  <h4>
-                    We repair all kitchen appliances including fridge freezers,
-                    washing machines, ovens, dishwashers, cookers, and more.
-                  </h4>
-                  <br />
-                  <h4>
-                    We are dedicated to bring our professionalism, expertise,
-                    and technical knowledge in diagnosing and rectifying your
-                    appliance.
-                  </h4>
-                  <br />
-                  <h4>
-                    Take advantage of our online repair booking which is
-                    directly integrated into our schedule system.
-                  </h4>
+                  <b>Appliances Repair Service</b>
+                  <br /> <br />
+                  We repair all kitchen appliances including fridge freezers,
+                  washing machines, ovens, dishwashers, cookers, and more.
+                  <br /> <br />
+                  We are dedicated to bringing our professionalism, expertise,
+                  and technical knowledge in diagnosing and rectifying your
+                  appliance.
+                  <br /> <br />
+                  Take advantage of our online repair booking which is directly
+                  integrated into our schedule system.
                 </div>
                 <a
                   class="read-more"
