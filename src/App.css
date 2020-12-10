@@ -81,16 +81,10 @@ body {
   padding-top: 3%;
 }
 
-#service-1 {
-  background-color: #a663cc;
-}
-
-#service-2 {
-  background-color: #8ea7cc;
-}
-
 #service-1,
 #service-2 {
+  color: white;
+  background-color: #ac6ecf;
   border-radius: 30px;
   font-size: 22px;
   text-transform: uppercase;
@@ -101,11 +95,11 @@ body {
   background-size: 90% 75%;
   height: 25rem;
   border-radius: 30px;
-  box-shadow: inset 0px 0px 0px 10px #a663cc;
+  box-shadow: inset 0px 0px 0px 10px #ac6ecf;
 }
 
 #icons {
-  background-color: #8ea7cc;
+  background-color: #ac6ecf;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -124,10 +118,10 @@ body {
 }
 
 .svgTags {
+  color: #2006ce;
   text-align: left;
   justify-self: start;
   font-weight: 700;
-  color: black;
   padding-top: 12px;
 }
 
@@ -272,5 +266,14 @@ body {
     grid-auto-flow: column;
     place-items: center;
     text-align: center;
+  }
+
+  .svg-icon-b {
+  }
+  .svgTags {
+  }
+
+  #icons {
+    grid-template-columns: 1fr 2fr;
   }
 }
