@@ -65,7 +65,7 @@ function App() {
           className="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
           id="service-2"
         >
-          <div className="my-3">
+          <div className="my-3 p-3" style={{ paddingTop: "0" }}>
             <p className="display-5">Covering all London areas</p>
           </div>
           <div
