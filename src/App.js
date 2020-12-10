@@ -22,7 +22,6 @@ function App() {
       </div>
 
       <div className="" id="mainSection">
-        {/* <img className="oven" src={oven} /> */}
         <div className="repairInfo">
           <div class="container">
             <div class="row">
@@ -30,18 +29,21 @@ function App() {
                 <div class="service-content">
                   <br />
                   <h1>Appliances Repair Service</h1>
+                  <br />
                   <h4>
                     We repair all kitchen appliances including fridge freezers,
                     washing machines, ovens, dishwashers, cookers, and more.
                   </h4>
+                  <br />
                   <h4>
                     We are dedicated to bring our professionalism, expertise,
                     and technical knowledge in diagnosing and rectifying your
                     appliance.
                   </h4>
+                  <br />
                   <h4>
                     Take advantage of our online repair booking which is
-                    directly integrated into our schedule system
+                    directly integrated into our schedule system.
                   </h4>
                 </div>
                 <a
@@ -54,7 +56,6 @@ function App() {
             </div>
           </div>
         </div>
-        {/* <img className="washingMachine" src={washingMachine} /> */}
       </div>
 
       <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
@@ -124,15 +125,17 @@ function App() {
 
           <h6 className="svgTags">Approved Quality Control</h6>
         </div>
-        <div className=" mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden brandsLogos"></div>
+        <div
+          className="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+          id="brandsLogos"
+        ></div>
       </div>
       <footer className="container py-5">
         <div className="row text-muted" id={"footer"}>
-          <div className="col-12 col-md">
-            <img src={logo} className="footerLogo" />
-          </div>
+          <img src={logo} className="footerLogo" />
           <div>
-            <h5>Our Address</h5>
+            <b> Our Address</b>
+            <br />
             East Lane Business Park <br />
             Office 11 Silver Box House <br />
             56 Magnet Road <br />
@@ -142,7 +145,8 @@ function App() {
             <br />
           </div>
           <div>
-            <h5>Contact Us</h5>
+            <b>Contact Us</b>
+            <br />
             020 7998 6900 <br />
             079 5848 0832 <br />
             info@a4allappliances.com
