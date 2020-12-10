@@ -38,17 +38,14 @@ body {
 #header {
   background-color: #8ea7cc;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
 }
 
 #headerButton {
   justify-self: end;
   align-self: center;
   padding-right: 1rem;
-}
-
-#logoContainer {
-  justify-self: end;
 }
 
 .logo {
@@ -62,20 +59,22 @@ body {
   z-index: 1;
 }
 
+#mainSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
 .washingMachine {
   height: 540px;
-  padding: 3% 10% 3% 1%;
+  border: 10px solid #f7f7f7;
+  border-radius: 50px;
 }
 
 .oven {
   height: 540px;
   padding: 6% 1% 6% 10%;
-}
-
-#mainSection {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .repairInfo {
@@ -84,37 +83,60 @@ body {
   flex: 1 350px;
   align-items: center;
   text-align: center;
-  padding: 4% 0%;
-  padding-top: 6%;
+  padding: 4% 1%;
 }
 
 .repairInfo > * {
   padding-top: 3%;
 }
 
+#service-1 {
+  background-color: #a663cc;
+  border-radius: 30px;
+}
+
+#service-2 {
+  background-color: #8ea7cc;
+  border-radius: 30px;
+}
+
 .brandsLogos {
   background: url("./images/brands-logos.jpg") center no-repeat;
-  background-size: 75% 85%;
-  height: 30rem;
-  outline: 10px solid #a663cc;
-  outline-offset: -10px;
+  background-size: 90% 75%;
+  height: 25rem;
+  border-radius: 30px;
+  box-shadow: inset 0px 0px 0px 10px #a663cc;
 }
 
 #icons {
   background-color: #8ea7cc;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: row;
+  place-items: center;
+  border-radius: 30px;
 }
 
-#icons > * {
-  width: 10rem;
-  margin: 3rem;
+.svg-icon-b {
+  height: 5rem;
+  width: 5rem;
+  justify-self: end;
+  padding-right: 1rem;
+}
+
+.svgTags {
+  text-align: left;
+  justify-self: start;
+  font-weight: 700;
+  color: black;
 }
 
 .flex-equal > * {
   -ms-flex: 1;
   flex: 1;
 }
+
 @media (min-width: 768px) {
   .flex-md-equal > * {
     -ms-flex: 1;
@@ -140,4 +162,103 @@ body {
 .footerLogo:hover {
   transform: scale(1.3);
   z-index: 1;
+}
+
+.serviceBox {
+  color: #606060;
+  padding: 0 10px 60px;
+  background-color: #130e07;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  margin: 80px 0 30px;
+  position: relative;
+}
+.serviceBox .service-content {
+  text-align: center;
+  padding: 15px 20px 30px;
+  margin-top: -80px;
+  border-radius: 25px;
+  background-color: #fff;
+  position: relative;
+  transition: all 0.3s;
+}
+.serviceBox .service-content:hover {
+  box-shadow: 0 0 20px -5px #000;
+}
+.serviceBox .service-content:after {
+  content: "";
+  height: 50px;
+  width: 50px;
+  border: 25px solid transparent;
+  border-top: 25px solid #fff;
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+}
+.serviceBox .service-icon {
+  display: inline-block;
+  color: #f9a11c;
+  font-size: 90px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease 0s;
+}
+.serviceBox:hover .service-icon {
+  transform: rotateX(360deg);
+}
+.serviceBox .title {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+.serviceBox .description {
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0;
+}
+.serviceBox .read-more {
+  display: block;
+  width: 60%;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  background-color: #6d4d42;
+  border-radius: 15px;
+  transform: translateX(-50%);
+  transition: all 0.3s ease 0s;
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+}
+.serviceBox .read-more:hover {
+  text-decoration: none;
+  letter-spacing: 2px;
+  box-shadow: 0 0 10px #000;
+}
+.serviceBox {
+  background-color: #c0b8f4;
+}
+.serviceBox .service-icon {
+  color: #44bb85;
+}
+.serviceBox .read-more {
+  background-color: #533de1;
+}
+
+@media only screen and (max-width: 990px) {
+  .serviceBox {
+    margin-bottom: 60px;
+  }
+  .serviceBox .service-content {
+    padding: 20px 15px 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .serviceBox {
+    margin-bottom: 130px;
+  }
 }
