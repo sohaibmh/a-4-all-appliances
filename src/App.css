@@ -118,10 +118,10 @@ body {
 }
 
 .svgTags {
-  color: #2006ce;
+  color: white;
   text-align: left;
   justify-self: start;
-  font-weight: 700;
+  font-weight: 600;
   padding-top: 12px;
 }
 
@@ -266,11 +266,6 @@ body {
     grid-auto-flow: column;
     place-items: center;
     text-align: center;
-  }
-
-  .svg-icon-b {
-  }
-  .svgTags {
   }
 
   #icons {
