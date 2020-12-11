@@ -66,6 +66,19 @@ body {
   background-color: #f7f7f7;
   font-family: "Fira Sans", sans-serif;
   font-size: 24px;
+  color: black;
+}
+
+.mainSectionSvgs > * {
+  height: 60px;
+  width: 60px;
+  margin-left: 30px;
+}
+
+#fridgeSvg {
+  height: 80px;
+  width: 80px;
+  padding-bottom: 10px;
 }
 
 .repairInfo {
@@ -83,8 +96,8 @@ body {
 
 #service-1,
 #service-2 {
-  color: white;
-  background-color: #ac6ecf;
+  background-color: #c0b8f4;
+  border: 2px solid #ac6ecf;
   border-radius: 30px;
   font-size: 22px;
   text-transform: uppercase;
@@ -95,11 +108,12 @@ body {
   background-size: 90% 75%;
   height: 25rem;
   border-radius: 30px;
-  box-shadow: inset 0px 0px 0px 10px #ac6ecf;
+  box-shadow: inset 0px 0px 0px 10px #c0b8f4;
+  border: 2px solid #ac6ecf;
 }
 
 #icons {
-  background-color: #ac6ecf;
+  background-color: #c0b8f4;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -108,6 +122,7 @@ body {
   border-radius: 30px;
   font-size: 16px;
   text-transform: uppercase;
+  border: 2px solid #ac6ecf;
 }
 
 .svg-icon-b {
@@ -118,7 +133,6 @@ body {
 }
 
 .svgTags {
-  color: white;
   text-align: left;
   justify-self: start;
   font-weight: 600;
@@ -160,7 +174,6 @@ body {
 }
 
 .serviceBox {
-  color: #606060;
   padding: 0 10px 60px;
   background-color: #130e07;
   border: 1px solid transparent;
@@ -270,5 +283,9 @@ body {
 
   #icons {
     grid-template-columns: 1fr 2fr;
+  }
+
+  #brandsLogos {
+    background-size: 90% 95%;
   }
 }
