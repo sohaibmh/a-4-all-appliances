@@ -67,6 +67,7 @@ body {
   font-family: "Fira Sans", sans-serif;
   font-size: 24px;
   color: black;
+  letter-spacing: 2px;
 }
 
 .mainSectionSvgs > * {
@@ -123,6 +124,8 @@ body {
   font-size: 16px;
   text-transform: uppercase;
   border: 2px solid #ac6ecf;
+  font-family: "Bangers", cursive;
+  letter-spacing: 4px;
 }
 
 .svg-icon-b {
@@ -253,6 +256,7 @@ body {
 }
 .serviceBox .read-more {
   background-color: #533de1;
+  font-family: "Fira Sans", sans-serif;
 }
 
 @media only screen and (max-width: 990px) {

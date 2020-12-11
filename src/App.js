@@ -39,11 +39,11 @@ function App() {
                   <br />
                   <b>APPLIANCES REPAIR SERVICE</b>
                   <br /> <br />
-                  We repair all kitchen appliances including washing machines,
-                  fridge freezers,ovens, dishwashers, cookers, and more.
+                  We repair all kitchen appliances including fridge freezers,
+                  washing machines, ovens, dishwashers, cookers, and more.
                   <br /> <br />
                   <div className="mainSectionSvgs">
-                    {washingMachine} {fridge} {cooker} {oven} {dishwasher}{" "}
+                    {fridge} {washingMachine} {cooker} {oven} {dishwasher}
                     {microwave}
                   </div>
                   <br />
@@ -71,16 +71,30 @@ function App() {
           className="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
           id="service-1"
         >
-          <div className="my-3 py-3" style={{ paddingTop: "0" }}>
-            <p className="display-5">Same Day/Next Day Service</p>
+          <div
+            className="my-3 py-3"
+            style={{
+              paddingTop: "0",
+              fontFamily: "Bangers, cursive",
+              letterSpacing: "4px",
+            }}
+          >
+            <b className="display-5">Same Day/Next Day Service</b>
           </div>
         </div>
         <div
           className="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
           id="service-2"
         >
-          <div className="my-3 p-3" style={{ paddingTop: "0" }}>
-            <p className="display-5">Covering all London areas</p>
+          <div
+            className="my-3 p-3"
+            style={{
+              paddingTop: "0",
+              fontFamily: "Bangers, cursive",
+              letterSpacing: "4px",
+            }}
+          >
+            <b className="display-5">Covering all London areas</b>
           </div>
           <div
             className="bg-dark shadow-sm mx-auto"
@@ -89,7 +103,7 @@ function App() {
         </div>
       </div>
 
-      <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 ">
+      <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
         <div
           className="mr-md-3  px-md-5 text-center overflow-hidden"
           id="icons"
