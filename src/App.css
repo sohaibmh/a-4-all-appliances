@@ -102,6 +102,8 @@ body {
   border-radius: 30px;
   font-size: 22px;
   text-transform: uppercase;
+  color: #2006ce;
+  text-shadow: 1px 1px white;
 }
 
 #brandsLogos {
@@ -126,6 +128,8 @@ body {
   border: 2px solid #ac6ecf;
   font-family: "Bangers", cursive;
   letter-spacing: 4px;
+  color: #2006ce;
+  text-shadow: 1px 1px white;
 }
 
 .svg-icon-b {
