@@ -96,7 +96,7 @@ body {
 
 #service-1,
 #service-2 {
-  background-color: #c0b8f4;
+  background-color: #edebff;
   border: 2px solid #ac6ecf;
   border-radius: 30px;
   font-size: 22px;
@@ -110,12 +110,12 @@ body {
   background-size: 90% 75%;
   height: 25rem;
   border-radius: 30px;
-  box-shadow: inset 0px 0px 0px 10px #c0b8f4;
+  box-shadow: inset 0px 0px 0px 10px #edebff;
   border: 2px solid #ac6ecf;
 }
 
 #icons {
-  background-color: #c0b8f4;
+  background-color: #edebff;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -282,7 +282,7 @@ body {
 }
 
 .serviceBox {
-  background-color: #c0b8f4;
+  background-color: #edebff;
 }
 
 .serviceBox .read-more {
