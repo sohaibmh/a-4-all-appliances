@@ -66,7 +66,6 @@ body {
   background-color: #f7f7f7;
   font-family: "Fira Sans", sans-serif;
   font-size: 24px;
-  color: black;
   letter-spacing: 2px;
 }
 
@@ -146,6 +145,30 @@ body {
   padding-top: 12px;
 }
 
+.faqs {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: auto auto auto;
+  place-items: center;
+  font-family: "Fira Sans", sans-serif;
+  padding-right: 50px;
+  text-align: justify;
+  margin-top: 50px;
+}
+
+.faqsSvgIcon {
+  height: 60px;
+  width: 60px;
+  margin-top: 40px;
+}
+
+.faqsText {
+  justify-self: start;
+  color: gray;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
+
 .flex-equal > * {
   -ms-flex: 1;
   flex: 1;
@@ -196,6 +219,7 @@ body {
   background-color: #fff;
   position: relative;
   transition: all 0.3s;
+  border: 2px solid #ac6ecf;
 }
 
 .serviceBox .service-content:after {
@@ -216,20 +240,24 @@ body {
   margin-bottom: 10px;
   transition: all 0.3s ease 0s;
 }
+
 .serviceBox:hover .service-icon {
   transform: rotateX(360deg);
 }
+
 .serviceBox .title {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   margin: 0 0 10px;
 }
+
 .serviceBox .description {
   font-size: 15px;
   line-height: 25px;
   margin: 0;
 }
+
 .serviceBox .read-more {
   display: block;
   width: 60%;
@@ -252,12 +280,11 @@ body {
   letter-spacing: 2px;
   box-shadow: 0 0 10px #000;
 }
+
 .serviceBox {
   background-color: #c0b8f4;
 }
-.serviceBox .service-icon {
-  color: #44bb85;
-}
+
 .serviceBox .read-more {
   background-color: #533de1;
   font-family: "Fira Sans", sans-serif;

@@ -10,6 +10,9 @@ import {
   oven,
   dishwasher,
   microwave,
+  poundCoins,
+  repairTools,
+  faulty,
 } from "./svgs";
 
 function App() {
@@ -37,7 +40,7 @@ function App() {
               <div class="serviceBox">
                 <div class="service-content">
                   <br />
-                  <b>APPLIANCES REPAIR SERVICE</b>
+                  <b style={{ fontSize: "30px" }}>APPLIANCES REPAIR SERVICE</b>
                   <br /> <br />
                   We repair all kitchen appliances including fridge freezers,
                   washing machines, ovens, dishwashers, cookers, and more.
@@ -119,6 +122,55 @@ function App() {
           className="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
           id="brandsLogos"
         ></div>
+      </div>
+
+      <div className="faqs">
+        {poundCoins}
+        <div className="faqsText">
+          <b style={{ fontSize: "24px", color: "black" }}>
+            How much will my appliance repair cost?
+          </b>
+          <br /> <br />
+          <b>
+            We charge a fixed price of £79 + VAT + parts for a completed repair
+            (any day service). If you want same day/next day service it will be
+            £99 + VAT + parts. Reduced to £35 + VAT if Beyond Economical Repair.
+          </b>
+          <br /> <br />
+          <p>
+            We visit your property and diagnose the problem with your appliance
+            and tell you if it needs any parts. For this, we will only charge
+            you £35 + VAT. If we can repair your appliance then the total charge
+            will only be £79 + VAT + parts. In case we need to visit your
+            property more than once there will be no extra charge for that.
+            Also, in many cases, no parts are required.
+          </p>
+        </div>
+        {repairTools}
+        <div className="faqsText">
+          <b style={{ fontSize: "24px", color: "black" }}>
+            What if you can't repair my appliance?
+          </b>
+          <br /> <br />
+          <p>
+            If you are not happy with the cost of the parts, or if your
+            appliance is Beyond Economical Repair, the charge is only £35 + VAT.
+            This covers our admin costs, the engineer's time, as well as travel
+            costs.
+          </p>
+        </div>
+        {faulty}
+        <div className="faqsText">
+          <b style={{ fontSize: "24px", color: "black" }}>
+            What if my appliance goes wrong again?
+          </b>
+          <br /> <br />
+          <p>
+            If your appliance goes wrong again within 28 days of completion of
+            our repair, and the fault is the same as the one we rectified, we
+            will repair it back at no extra cost.
+          </p>
+        </div>
       </div>
       <footer className="container py-5">
         <div className="row text-muted" id={"footer"}>
