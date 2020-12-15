@@ -128,7 +128,7 @@ body {
   font-family: "Bangers", cursive;
   letter-spacing: 4px;
   color: #2006ce;
-  text-shadow: 1px 1px white;
+  text-shadow: 0.5px 0.5px white;
 }
 
 .svg-icon-b {
@@ -147,7 +147,7 @@ body {
 
 .faqs {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 5fr;
   grid-template-rows: auto auto auto;
   place-items: center;
   font-family: "Fira Sans", sans-serif;
@@ -160,7 +160,6 @@ body {
   height: 60px;
   width: 60px;
   margin-top: 40px;
-  margin-right: 20px;
 }
 
 .faqsText {
@@ -337,5 +336,6 @@ body {
   .faqsSvgIcon {
     height: 40px;
     width: 40px;
+    margin-right: 20px;
   }
 }
