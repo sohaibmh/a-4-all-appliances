@@ -1,0 +1,44 @@
+.overlayStyles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(4, 12, 78, 0.9);
+  z-index: 10000;
+  box-shadow: inset 0 0 100px #000000;
+}
+
+.modalStyles {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  height: 450px;
+  width: 700px;
+  z-index: 10000;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.bookNow {
+  background-color: #533de1;
+  color: white;
+  padding: 5px 150px;
+  margin-top: 40px;
+  border-radius: 15px;
+  letter-spacing: 1px;
+}
+
+.bookNow:hover {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1.5px;
+  box-shadow: 0 0 10px #000;
+}
