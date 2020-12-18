@@ -31,7 +31,7 @@
   background-color: #533de1;
   color: white;
   padding: 5px 150px;
-  margin-top: 40px;
+  margin-top: 35px;
   border-radius: 15px;
   letter-spacing: 1px;
 }
@@ -41,4 +41,8 @@
   color: white;
   letter-spacing: 1.5px;
   box-shadow: 0 0 10px #000;
+}
+
+.check {
+  height: 25px;
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ReactDom from "react-dom";
 import "./PageLeaveModal.css";
 import check from "../images/checked.png";
+import close from "../images/close.png";
 
 const PageLeaveModal = ({ show }) => {
   const [closeModal, setCloseModal] = useState(false);
@@ -10,14 +11,23 @@ const PageLeaveModal = ({ show }) => {
 
   return ReactDom.createPortal(
     <div className="overlayStyles">
-      <button onClick={() => setCloseModal(true)}>X</button>
       <div
         className="modalStyles"
         style={{
           letterSpacing: "1px",
-          fontSize: "20px",
+          fontSize: "22px",
         }}
       >
+        <img
+          src={close}
+          style={{
+            alignSelf: "flex-end",
+            paddingRight: "5px",
+            paddingBottom: "2px",
+            cursor: "pointer",
+          }}
+          onClick={() => setCloseModal(true)}
+        />
         <h4 style={{ paddingBottom: "30px", color: "purple" }}>
           Are you sure you want to leave?
         </h4>
@@ -26,16 +36,20 @@ const PageLeaveModal = ({ show }) => {
         </h4>
         <ul style={{ listStyleType: "none" }}>
           <li>
-            <img src={check}></img> Free online booking service
+            <img src={check} className="check" /> Free online booking service
           </li>
           <li>
-            <img src={check}></img> Same day/next day service
+            <img src={check} className="check" /> Same day/next day service
           </li>
           <li>
-            <img src={check}></img> One of the lowest priced callout charges
+            <img src={check} className="check" /> Flexible scheduling
           </li>
           <li>
-            <img src={check}></img> We cover all London areas
+            <img src={check} className="check" /> One of the lowest priced
+            callout charges
+          </li>
+          <li>
+            <img src={check} className="check" /> We cover all London areas
           </li>
         </ul>
         <a
