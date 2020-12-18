@@ -140,14 +140,14 @@ function App() {
             <b>
               We charge a fixed price of £79 + VAT + parts for a completed
               repair (any day service). If you want same day/next day service it
-              will be £99 + VAT + parts. Reduced to £35 + VAT if Beyond
+              will be £99 + VAT + parts. Reduced to £45 + VAT if Beyond
               Economical Repair.
             </b>
             <br /> <br />
             <p>
               We visit your property and diagnose the problem with your
               appliance and tell you if it needs any parts. For this, we will
-              only charge you £35 + VAT. If we can repair your appliance then
+              only charge you £45 + VAT. If we can repair your appliance then
               the total charge will only be £79 + VAT + parts. In case we need
               to visit your property more than once there will be no extra
               charge for that. Also, in many cases, no parts are required.
@@ -161,7 +161,7 @@ function App() {
             <br /> <br />
             <p>
               If you are not happy with the cost of the parts, or if your
-              appliance is Beyond Economical Repair, the charge is only £35 +
+              appliance is Beyond Economical Repair, the charge is only £45 +
               VAT. This covers our admin costs, the engineer's time, as well as
               travel costs.
             </p>
