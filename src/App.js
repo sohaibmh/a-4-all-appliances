@@ -17,6 +17,11 @@ import {
 } from "./svgs";
 import PageLeaveModal from "./components/PageLeaveModal";
 
+const reload = () => {
+  window.location.reload();
+  return false;
+};
+
 function App() {
   const [showPageLeaveModal, setShowPageLeaveModal] = useState(false);
   return (
@@ -26,7 +31,7 @@ function App() {
         <div className="site-header sticky-top py-1" id="header">
           <div></div>
           <div className="py-2" id="logoContainer">
-            <img className="logo" src={logo} alt="logo" />
+            <img className="logo" src={logo} onClick={reload} alt="logo" />
           </div>
           <form
             action="https://a4allappliances.simplybook.it/v2/#book"
