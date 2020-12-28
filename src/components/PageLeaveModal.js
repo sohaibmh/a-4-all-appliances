@@ -20,6 +20,7 @@ const PageLeaveModal = ({ show }) => {
       >
         <img
           src={close}
+          alt="close"
           style={{
             alignSelf: "flex-end",
             paddingRight: "5px",
@@ -36,24 +37,28 @@ const PageLeaveModal = ({ show }) => {
         </h4>
         <ul style={{ listStyleType: "none" }}>
           <li>
-            <img src={check} className="check" /> Free online booking service
+            <img src={check} alt="tick sign" className="check" /> Free online
+            booking service
           </li>
           <li>
-            <img src={check} className="check" /> Same day/next day service
+            <img src={check} alt="tick sign" className="check" /> Same day/next
+            day service
           </li>
           <li>
-            <img src={check} className="check" /> Flexible scheduling
+            <img src={check} alt="tick sign" className="check" /> Flexible
+            scheduling
           </li>
           <li>
-            <img src={check} className="check" /> One of the lowest priced
-            callout charges
+            <img src={check} alt="tick sign" className="check" /> One of the
+            lowest priced callout charges
           </li>
           <li>
-            <img src={check} className="check" /> We cover all London areas
+            <img src={check} alt="tick sign" className="check" /> We cover all
+            London areas
           </li>
         </ul>
         <a
-          class="bookNow"
+          className="bookNow"
           href="https://a4allappliances.simplybook.it/v2/#book"
         >
           BOOK NOW

@@ -44,10 +44,10 @@ function App() {
         </div>
         <div id="mainSection">
           <div className="repairInfo">
-            <div class="container">
-              <div class="row">
-                <div class="serviceBox">
-                  <div class="service-content">
+            <div className="container">
+              <div className="row">
+                <div className="serviceBox">
+                  <div className="service-content">
                     <br />
                     <b style={{ fontSize: "30px" }}>
                       APPLIANCES REPAIR SERVICE
@@ -69,7 +69,7 @@ function App() {
                     directly integrated into our schedule system.
                   </div>
                   <a
-                    class="read-more"
+                    className="read-more"
                     href="https://a4allappliances.simplybook.it/v2/#book"
                   >
                     Book Now
@@ -186,7 +186,7 @@ function App() {
         </div>
         <footer className="container py-5">
           <div className="row text-muted" id={"footer"}>
-            <img src={logo} className="footerLogo" />
+            <img src={logo} alt="logo" className="footerLogo" />
             <div>
               <b>Our Address</b>
               <br />
