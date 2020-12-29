@@ -231,8 +231,7 @@ body {
   background: #ffffff;
   border-bottom: 2px solid #ac6ecf;
   border-left: 2px solid #ac6ecf;
-  -moz-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   position: absolute;
   bottom: -26.5px;
   left: 47%;
@@ -343,6 +342,9 @@ body {
     height: 40px;
     width: 40px;
     margin-right: 20px;
+  }
+  .serviceBox .service-content:after {
+    left: 44%;
   }
 }
 
