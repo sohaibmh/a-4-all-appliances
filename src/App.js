@@ -61,10 +61,12 @@ function App() {
                       {microwave}
                     </div>
                     <br />
-                    We are dedicated to bringing our professionalism, expertise,
-                    and technical knowledge in diagnosing and rectifying your
-                    appliance.
-                    <br /> <br />
+                    <div className="infoText">
+                      We are dedicated to bringing our professionalism,
+                      expertise, and technical knowledge in diagnosing and
+                      rectifying your appliance.
+                    </div>
+                    <br />
                     Take advantage of our online repair booking service which is
                     directly integrated into our schedule system.
                   </div>

@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  background: linear-gradient(145deg, #c9c8d9, #ffffff);
+  box-shadow: 0.01px 9.91px 15px #d8d6e8, -9.91px -9.91px 15px #ffffff;
 }
 
 @media (max-width: 900px) {
@@ -40,6 +42,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
+
+  background: linear-gradient(145deg, #c9c8d9, #ffffff);
+  box-shadow: 9.91px 9.91px 15px #d8d6e8, -9.91px -9.91px 15px #ffffff;
 }
 
 #headerButton {
@@ -67,6 +72,10 @@ body {
   font-family: "Fira Sans", sans-serif;
   font-size: 24px;
   letter-spacing: 2px;
+
+  background: linear-gradient(145deg, #c9c8d9, #ffffff);
+  box-shadow: 9.91px 9.91px 15px #d8d6e8, -9.91px -9.91px 15px #ffffff;
+  border-radius: 0px 0px 30px 30px;
 }
 
 .mainSectionSvgs > * {
@@ -97,12 +106,14 @@ body {
 #service-1,
 #service-2 {
   background-color: #edebff;
-  border: 2px solid #ac6ecf;
+  /* border: 2px solid #ac6ecf; */
   border-radius: 30px;
   font-size: 22px;
   text-transform: uppercase;
   color: #2006ce;
   text-shadow: 1px 1px white;
+  background: linear-gradient(145deg, #c9c8d9, #ffffff);
+  box-shadow: 9.91px 9.91px 15px #d8d6e8, -9.91px -9.91px 15px #ffffff;
 }
 
 #brandsLogos {
@@ -111,7 +122,8 @@ body {
   height: 25rem;
   border-radius: 30px;
   box-shadow: inset 0px 0px 0px 10px #edebff;
-  border: 2px solid #ac6ecf;
+  /* border: 2px solid #ac6ecf; */
+  box-shadow: 9.91px 9.91px 15px #d8d6e8, -9.91px -9.91px 15px #ffffff;
 }
 
 #icons {
@@ -124,11 +136,13 @@ body {
   border-radius: 30px;
   font-size: 16px;
   text-transform: uppercase;
-  border: 2px solid #ac6ecf;
+  /* border: 2px solid #ac6ecf; */
   font-family: "Bangers", cursive;
   letter-spacing: 4px;
   color: #2006ce;
   text-shadow: 0.5px 0.5px white;
+  background: linear-gradient(145deg, #c9c8d9, #ffffff);
+  box-shadow: 9.91px 9.91px 15px #d8d6e8, -9.91px -9.91px 15px #ffffff;
 }
 
 .svg-icon-b {
@@ -219,11 +233,13 @@ body {
   background-color: #fff;
   position: relative;
   transition: all 0.3s;
-  border: 2px solid #ac6ecf;
+  /* border: 2px solid #ac6ecf; */
+  background: transparent;
+  /* box-shadow: 9.91px 9.91px 15px #d8d6e8, -9.91px -9.91px 15px #ffffff; */
 }
 
 .serviceBox .service-content:after {
-  content: "";
+  /* content: "";
   display: block;
   position: absolute;
   width: 50px;
@@ -236,7 +252,7 @@ body {
   bottom: -26.5px;
   left: 47%;
   margin: 0 auto;
-  border-radius: 5%;
+  border-radius: 5%; */
 }
 .serviceBox .service-icon {
   display: inline-block;
@@ -287,7 +303,7 @@ body {
 }
 
 .serviceBox {
-  background-color: #edebff;
+  background-color: transparent;
 }
 
 .serviceBox .read-more {
@@ -389,3 +405,13 @@ body {
     opacity: 1;
   }
 }
+/* 
+.infoText {
+  background: linear-gradient(145deg, #d9d9d9, #ffffff);
+  border-radius: 15%;
+  box-shadow: 9.91px 9.91px 15px #e8e8e8, -9.91px -9.91px 15px #ffffff;
+
+  border-radius: 15px;
+  height: 400px;
+  width: 800px;
+} */
