@@ -68,7 +68,7 @@ function App() {
                     </div>
                     <br />
                     Take advantage of our online repair booking service which is
-                    directly integrated into our schedule system.
+                    directly integrated with our schedule system.
                   </div>
                   <a
                     className="read-more"
