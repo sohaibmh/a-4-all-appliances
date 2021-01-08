@@ -70,7 +70,7 @@ body {
   justify-content: center;
   background-color: #f7f7f7;
   font-family: "Fira Sans", sans-serif;
-  font-size: 24px;
+  font-size: 25px;
   letter-spacing: 2px;
 
   background: linear-gradient(145deg, #c9c8d9, #ffffff);
@@ -88,6 +88,34 @@ body {
   height: 80px;
   width: 80px;
   padding-bottom: 10px;
+}
+
+#fridgeSvg,
+#washingMachineSvg,
+#cookerSvg,
+#ovenSvg,
+#dishwasherSvg,
+#microwaveSvg,
+#calendarSvg,
+#clockSvg,
+#approvalSvg,
+.faqsSvgIcon {
+  transition: all 1s;
+  transform-origin: 50% 50%;
+}
+
+#fridgeSvg:hover,
+#washingMachineSvg:hover,
+#cookerSvg:hover,
+#ovenSvg:hover,
+#dishwasherSvg:hover,
+#microwaveSvg:hover,
+#calendarSvg:hover,
+#clockSvg:hover,
+#approvalSvg:hover,
+.faqsSvgIcon:hover {
+  transform: scale(1.2);
+  fill: hotpink;
 }
 
 .repairInfo {
@@ -117,7 +145,7 @@ body {
 }
 
 #brandsLogos {
-  background: url("./images/brands-logos.jpg") center no-repeat;
+  background: url("./images/brands-logos.png") center no-repeat;
   background-size: 90% 75%;
   height: 25rem;
   border-radius: 30px;
@@ -238,6 +266,20 @@ body {
   /* box-shadow: 9.91px 9.91px 15px #d8d6e8, -9.91px -9.91px 15px #ffffff; */
 }
 
+#sameDayService {
+  margin-bottom: 30px;
+}
+
+#calendarSvg,
+.calendarTag {
+  margin-top: 30px;
+}
+
+#approvalSvg,
+.approvalTag {
+  margin-bottom: 30px;
+}
+
 .serviceBox .service-content:after {
   /* content: "";
   display: block;
@@ -253,13 +295,6 @@ body {
   left: 47%;
   margin: 0 auto;
   border-radius: 5%; */
-}
-.serviceBox .service-icon {
-  display: inline-block;
-  color: #f9a11c;
-  font-size: 90px;
-  margin-bottom: 10px;
-  transition: all 0.3s ease 0s;
 }
 
 .serviceBox:hover .service-icon {
@@ -294,7 +329,7 @@ body {
   transition: all 0.3s ease 0s;
   position: absolute;
   left: 50%;
-  bottom: -20px;
+  bottom: 10px;
 }
 .serviceBox .read-more:hover {
   text-decoration: none;

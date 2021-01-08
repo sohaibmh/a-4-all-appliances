@@ -7,7 +7,8 @@ import close from "../images/close.png";
 const PageLeaveModal = ({ show }) => {
   const [closeModal, setCloseModal] = useState(false);
 
-  if (!show || closeModal) return null;
+  // disabling for now, change !closeModal to closeModal to enable back
+  if (!show || !closeModal) return null;
 
   return ReactDom.createPortal(
     <div className="overlayStyles">

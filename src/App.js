@@ -88,14 +88,16 @@ function App() {
             id="service-1"
           >
             <div
-              className="my-3 py-3"
+              className="my-3"
               style={{
                 paddingTop: "0",
                 fontFamily: "Bangers, cursive",
                 letterSpacing: "4px",
               }}
             >
-              <b className="display-5">Same Day/Next Day Service</b>
+              <b className="display-5" id="sameDayService">
+                Same Day/Next Day Service
+              </b>
             </div>
           </div>
           <div
@@ -103,11 +105,12 @@ function App() {
             id="service-2"
           >
             <div
-              className="my-3 p-3"
+              className="my-3"
               style={{
                 paddingTop: "0",
                 fontFamily: "Bangers, cursive",
                 letterSpacing: "4px",
+                paddingBottom: "30px",
               }}
             >
               <b className="display-5">Covering all London areas</b>
@@ -125,11 +128,11 @@ function App() {
             id="icons"
           >
             {calendar}
-            <p className="svgTags">Flexible Scheduling</p>
+            <p className="svgTags calendarTag">Flexible Scheduling</p>
             {clock}
             <p className="svgTags">Quick Service</p>
             {approval}
-            <p className="svgTags">Approved Quality Control</p>
+            <p className="svgTags approvalTag">Approved Quality Control</p>
           </div>
           <div
             className="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
