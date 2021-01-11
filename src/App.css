@@ -4,7 +4,6 @@ body {
   padding: 0;
   font-size: 16px;
   background: linear-gradient(145deg, #c9c8d9, #ffffff);
-  box-shadow: 0.01px 9.91px 15px #d8d6e8, -9.91px -9.91px 15px #ffffff;
 }
 
 @media (max-width: 900px) {
@@ -396,6 +395,15 @@ body {
   }
   .serviceBox .service-content:after {
     left: 44%;
+  }
+
+  #header,
+  #mainSection,
+  #service-1,
+  #service-2,
+  #brandsLogos,
+  #icons {
+    box-shadow: 9.91px 9.91px 15px #d8d6e8, -9.91px -9.91px 15px #d8d6e8;
   }
 }
 
