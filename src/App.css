@@ -22,27 +22,15 @@ body {
   max-width: 960px;
 }
 
-.site-header {
-  background-color: rgba(0, 0, 0, 0.85);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-}
-.site-header a {
-  color: #999;
-  transition: ease-in-out color 0.15s;
-}
-.site-header a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
 #header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
 
   background: linear-gradient(145deg, #c9c8d9, #ffffff);
-  box-shadow: 9.91px 9.91px 15px #d8d6e8, -9.91px -9.91px 15px #ffffff;
+  box-shadow: 0px 2px 5px #fff, -9.91px -9.91px 15px #fff;
+
+  /* border-bottom: 1px solid #fff; */
 }
 
 #headerButton {
