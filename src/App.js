@@ -16,7 +16,7 @@ import {
   faulty,
 } from "./svgs";
 import PageLeaveModal from "./components/PageLeaveModal";
-import WashingMachineRepair from "./components/WashingMachineRepair";
+// import WashingMachineRepair from "./components/WashingMachineRepair";
 
 const reload = () => {
   window.location.reload();
