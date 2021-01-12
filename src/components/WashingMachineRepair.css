@@ -1,0 +1,21 @@
+.washingMachineRepair {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  font-size: 16px;
+
+  border-radius: 30px;
+  background: #e3e2eb;
+  box-shadow: inset 5px 5px 10px #c8c7cf, inset -5px -5px 10px #fefdff;
+
+  padding: 40px;
+  margin-bottom: 50px;
+}
+
+.washingMachineRepairImg {
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #c8c7cf;
+}

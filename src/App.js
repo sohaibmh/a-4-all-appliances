@@ -16,6 +16,7 @@ import {
   faulty,
 } from "./svgs";
 import PageLeaveModal from "./components/PageLeaveModal";
+import WashingMachineRepair from "./components/WashingMachineRepair";
 
 const reload = () => {
   window.location.reload();
@@ -48,19 +49,30 @@ function App() {
               <div className="row">
                 <div className="serviceBox">
                   <div className="service-content">
+                    {
+                      <h1
+                        style={{
+                          fontSize: "40px",
+                          textShadow: "0px 2px #aaa9ba",
+                        }}
+                      >
+                        APPLIANCES REPAIR SERVICE
+                      </h1>
+                    }
                     <br />
-                    <b style={{ fontSize: "30px" }}>
-                      APPLIANCES REPAIR SERVICE
-                    </b>
-                    <br /> <br />
                     We repair all kitchen appliances including fridge freezers,
                     washing machines, ovens, dishwashers, cookers, and more.
                     <br /> <br />
-                    <div className="mainSectionSvgs">
-                      {fridge} {washingMachine} {cooker} {oven} {dishwasher}
-                      {microwave}
+                    <div>
+                      {
+                        <div className="mainSectionSvgs ss">
+                          {fridge} {washingMachine} {cooker} {oven} {dishwasher}
+                          {microwave}
+                        </div>
+                      }
                     </div>
                     <br />
+                    {/* <WashingMachineRepair /> */}
                     <div className="infoText">
                       We are dedicated to bringing our professionalism,
                       expertise, and technical knowledge in diagnosing and

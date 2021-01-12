@@ -37,7 +37,6 @@ body {
 }
 
 #header {
-  background-color: #8ea7cc;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
@@ -77,10 +76,19 @@ body {
   border-radius: 0px 0px 30px 30px;
 }
 
+.mainSectionSvgs {
+  padding: 30px 80px 20px 80px;
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 30px;
+  background: #e3e2eb;
+  box-shadow: inset 5px 5px 10px #c8c7cf, inset -5px -5px 10px #fefdff;
+}
+
 .mainSectionSvgs > * {
   height: 60px;
   width: 60px;
-  margin-left: 30px;
 }
 
 #fridgeSvg {
@@ -404,6 +412,17 @@ body {
   #brandsLogos,
   #icons {
     box-shadow: 9.91px 9.91px 15px #d8d6e8, -9.91px -9.91px 15px #d8d6e8;
+  }
+
+  .mainSectionSvgs {
+    padding: 0px;
+    display: block;
+  }
+
+  .mainSectionSvgs > * {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
   }
 }
 
