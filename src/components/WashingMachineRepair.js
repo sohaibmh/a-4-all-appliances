@@ -1,5 +1,5 @@
 import "./WashingMachineRepair.css";
-import WashingMachineRepairImage from "../images/washing-machine-repair.jpeg";
+// import WashingMachineRepairImage from "../images/washing-machine-repair.jpeg";
 
 const washingMachineRepair = () => {
   return (
@@ -12,10 +12,10 @@ const washingMachineRepair = () => {
         However, a broken washing machine doesn’t have to be a disaster or an
         expensive problem to fix.
       </p>
-      <img
+      {/* <img
         src={WashingMachineRepairImage}
         className="washingMachineRepairImg"
-      />
+      /> */}
     </div>
   );
 };
