@@ -220,7 +220,7 @@ function App() {
               <br />
               020 7998 6900 <br />
               079 5848 0832 <br />
-              info@a4allappliances.com
+              a4allappliances@yahoo.co.uk
             </div>
           </div>
         </footer>

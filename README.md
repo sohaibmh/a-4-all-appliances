@@ -1,3 +1,3 @@
-A 4 All Appliances Limited Website
+A 4 All Appliances Ltd Website
 
 www.a4allappliances.com
