@@ -74,37 +74,42 @@ body {
   box-shadow: inset 5px 5px 10px #c8c7cf, inset -5px -5px 10px #fefdff;
 }
 
-.mainSectionSvgs > * {
-  height: 60px;
-  width: 60px;
-}
-
-#fridgeSvg {
+#fridge-repair {
   height: 80px;
   width: 80px;
   padding-bottom: 10px;
 }
 
-#fridgeSvg,
-#washingMachineSvg,
-#cookerSvg,
-#ovenSvg,
-#dishwasherSvg,
-#microwaveSvg,
+#washing-machine-repair,
+#cooker-repair,
+#oven-repair,
+#dishwasher-repair,
+#microwave-repair {
+  height: 60px;
+  width: 60px;
+}
+
+#fridge-repair,
+#washing-machine-repair,
+#cooker-repair,
+#oven-repair,
+#dishwasher-repair,
+#microwave-repair,
 #calendarSvg,
 #clockSvg,
 #approvalSvg,
 .faqsSvgIcon {
   transition: all 1s;
   transform-origin: 50% 50%;
+  cursor: pointer;
 }
 
-#fridgeSvg:hover,
-#washingMachineSvg:hover,
-#cookerSvg:hover,
-#ovenSvg:hover,
-#dishwasherSvg:hover,
-#microwaveSvg:hover,
+#fridge-repair:hover,
+#washing-machine-repair:hover,
+#cooker-repair:hover,
+#oven-repair:hover,
+#dishwasher-repair:hover,
+#microwave-repair:hover,
 #calendarSvg:hover,
 #clockSvg:hover,
 #approvalSvg:hover,
@@ -256,9 +261,7 @@ body {
   background-color: #fff;
   position: relative;
   transition: all 0.3s;
-  /* border: 2px solid #ac6ecf; */
   background: transparent;
-  /* box-shadow: 9.91px 9.91px 15px #d8d6e8, -9.91px -9.91px 15px #ffffff; */
 }
 
 #sameDayService {
@@ -273,23 +276,6 @@ body {
 #approvalSvg,
 .approvalTag {
   margin-bottom: 30px;
-}
-
-.serviceBox .service-content:after {
-  /* content: "";
-  display: block;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background: #ffffff;
-  border-bottom: 2px solid #ac6ecf;
-  border-left: 2px solid #ac6ecf;
-  transform: rotate(-45deg);
-  position: absolute;
-  bottom: -26.5px;
-  left: 47%;
-  margin: 0 auto;
-  border-radius: 5%; */
 }
 
 .serviceBox:hover .service-icon {
@@ -407,9 +393,12 @@ body {
     display: block;
   }
 
-  .mainSectionSvgs > * {
-    height: 60px;
-    width: 60px;
+  #fridge-repair,
+  #washing-machine-repair,
+  #cooker-repair,
+  #oven-repair,
+  #dishwasher-repair,
+  #microwave-repair {
     margin: 10px;
   }
 }
@@ -455,13 +444,3 @@ body {
     opacity: 1;
   }
 }
-/* 
-.infoText {
-  background: linear-gradient(145deg, #d9d9d9, #ffffff);
-  border-radius: 15%;
-  box-shadow: 9.91px 9.91px 15px #e8e8e8, -9.91px -9.91px 15px #ffffff;
-
-  border-radius: 15px;
-  height: 400px;
-  width: 800px;
-} */
