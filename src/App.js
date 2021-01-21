@@ -21,9 +21,8 @@ import ApplianceRepair from "./components/ApplianceRepair";
 
 export const ApplianceRepairContext = createContext();
 
-const reload = () => {
-  window.location.reload();
-  return false;
+const homepage = () => {
+  document.location.href = "/";
 };
 
 function App() {
@@ -35,7 +34,7 @@ function App() {
 
     return svgs.map((svg) => {
       return (
-        <Link to={`/${svg.props.id}`}>
+        <Link to={`/${svg.props.id}`} key={`/${svg.props.id}`}>
           <span
             onClick={() => {
               setCurrentAppliance(svg.props.id);
@@ -49,8 +48,6 @@ function App() {
     });
   };
 
-  console.log("currentApplinace", currentApplinace);
-
   return (
     <Router>
       <ApplianceRepairContext.Provider value={currentApplinace}>
@@ -60,7 +57,12 @@ function App() {
             <div className="site-header sticky-top py-1" id="header">
               <div></div>
               <div className="py-2" id="logoContainer">
-                <img className="logo" src={logo} onClick={reload} alt="logo" />
+                <img
+                  className="logo"
+                  src={logo}
+                  onClick={homepage}
+                  alt="logo"
+                />
               </div>
               <form
                 action="https://a4allappliances.simplybook.it/v2/#book"
