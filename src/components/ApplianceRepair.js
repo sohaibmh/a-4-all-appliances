@@ -21,7 +21,7 @@ const ApplianceRepair = () => {
   if (currentApplinace === "fridge-repair" || location === "/fridge-repair") {
     description = (
       <div>
-        <h4>Fridge Freezer Repair</h4>
+        <h3>Are You Looking for Fridge Freezer Repair in London?</h3>
         <p>
           A 4 All Appliances have over a decade’s worth of experience as one of
           the trusted independent domestic appliance servicing companies in
@@ -58,7 +58,7 @@ const ApplianceRepair = () => {
   ) {
     description = (
       <div>
-        <h4>Washing Machine Repair</h4>
+        <h3>Are You Looking for Washing Machine Repair in London?</h3>
         <p>
           Whatever the issue with your washing machine, we can usually repair it
           on the spot. Our warehouse is fully stocked with a huge range of
@@ -97,7 +97,7 @@ const ApplianceRepair = () => {
   ) {
     description = (
       <div>
-        <h4>Electric Cooker Repair</h4>
+        <h3>Are You Looking for Electric Cooker Repair in London?</h3>
         <p>
           As one of the trusted independent domestic appliance servicing
           companies in London, A 4 All Appliances have many lines of stock and
@@ -121,7 +121,7 @@ const ApplianceRepair = () => {
   ) {
     description = (
       <div>
-        <h4>Oven Repair</h4>
+        <h3>Are You Looking for Oven Repair in London?</h3>
         <p>
           Whatever the issue with your oven, we can usually repair it on the
           spot. Our warehouse is fully stocked with a huge range of replacement
@@ -156,7 +156,7 @@ const ApplianceRepair = () => {
   ) {
     description = (
       <div>
-        <h4>Dishwasher Repair</h4>
+        <h3>Are You Looking for Dishwasher Repair in London?</h3>
         <p>
           We service all new and existing freestanding, and integrated
           dishwashers from leading manufacturers including Hotpoint, Indesit,
@@ -191,7 +191,7 @@ const ApplianceRepair = () => {
   ) {
     description = (
       <div>
-        <h4>Microwave Repair</h4>
+        <h3>Are You Looking for Microwave Repair in London?</h3>
         <p>
           As one of the trusted independent domestic appliance servicing
           companies in London, A 4 All Appliances have many lines of stock and

@@ -19,8 +19,10 @@
   padding-right: 30px;
 }
 
-h4 {
+h3 {
   font-size: 22px;
+  text-align: left;
+  margin-bottom: 8px;
 }
 
 .applianceImage {
@@ -44,9 +46,5 @@ h4 {
 
   .applianceDescription {
     padding-right: 0px;
-  }
-
-  h4 {
-    margin-bottom: 8px;
   }
 }
