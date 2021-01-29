@@ -7,8 +7,7 @@ import close from "../images/close.png";
 const PageLeaveModal = ({ show }) => {
   const [closeModal, setCloseModal] = useState(false);
 
-  // disabling for now, change !closeModal to closeModal to enable back
-  if (!show || !closeModal) return null;
+  if (!show || closeModal) return null;
 
   return ReactDom.createPortal(
     <div className="overlayStyles">
@@ -38,24 +37,24 @@ const PageLeaveModal = ({ show }) => {
         </h4>
         <ul style={{ listStyleType: "none" }}>
           <li>
-            <img src={check} alt="tick sign" className="check" /> Free online
-            booking service
+            <img src={check} alt="tick sign" className="check puff-in-center" />
+            Free online booking
           </li>
           <li>
-            <img src={check} alt="tick sign" className="check" /> Same day/next
-            day service
+            <img src={check} alt="tick sign" className="check puff-in-center" />
+            Same day/next day service
           </li>
           <li>
-            <img src={check} alt="tick sign" className="check" /> Flexible
-            scheduling
+            <img src={check} alt="tick sign" className="check puff-in-center" />
+            Flexible scheduling
           </li>
           <li>
-            <img src={check} alt="tick sign" className="check" /> One of the
-            lowest priced callout charges
+            <img src={check} alt="tick sign" className="check puff-in-center" />
+            One of the lowest priced callout charges
           </li>
           <li>
-            <img src={check} alt="tick sign" className="check" /> We cover all
-            London areas
+            <img src={check} alt="tick sign" className="check puff-in-center" />
+            We cover all London areas
           </li>
         </ul>
         <a
